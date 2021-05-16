@@ -1,0 +1,7 @@
+//test용으로 데이터도 같이 넣은 상태
+users = {"userid": "Kim",
+    "_id" : {"nickname" : "Joe"},
+    "kakaoemail" : "Kim@daum.net",
+    "token" : 12345,
+    "type" : "P",
+    "agerange" : 60}
