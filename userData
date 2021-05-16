@@ -1,7 +1,7 @@
-//test용으로 데이터 삽입
-users = {"userid": "Kim",
-    "_id" : {"nickname" : "Joe"},
-    "kakaoemail" : "Kim@daum.net",
-    "token" : 12345,
-    "type" : "P",
-    "agerange" : 60}
+//_id가 기본키
+users = {"userid": "",
+    "_id" : {"nickname" : ""},
+    "kakaoemail" : "",
+    "token" : "",
+    "type" : "",
+    "agerange" : ""}
