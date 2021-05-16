@@ -1,4 +1,4 @@
-//test용으로 데이터도 같이 삽입
+//test용으로 데이터 삽입
 users = {"userid": "Kim",
     "_id" : {"nickname" : "Joe"},
     "kakaoemail" : "Kim@daum.net",
