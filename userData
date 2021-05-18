@@ -1,8 +1,14 @@
-//_id가 기본키
+//유저 정보 DB
 users = {"userid": "",
-    "_id" : {"nickname" : ""},
+    "nickname" : "",
     "kakaoemail" : "",
     "token" : "",
     "type" : "",
     "agerange" : "",
     "friend" : ""}
+
+//nickname을 고유인덱스로 지정하여 중복성 배제
+db.userData.createIndex({"nickname" : 1},
+    {"unique" : true, "partialFilterExpression":{
+        "nickname" : {$exists: true}
+        }})
