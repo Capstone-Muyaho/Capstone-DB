@@ -19,5 +19,6 @@ Database for Capstone Project
 -myNick+friNick이 기본키   
 -사진 디렉토리를 로그 속성으로 추가   
    
+3. 비즈니스 모델 아이디어   
 -사진을 서버에 영구저장->과금 필요   
 -채팅방 생성 개수 제한->제한을 풀려면 돈 내!   
