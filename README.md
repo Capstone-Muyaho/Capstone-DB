@@ -33,5 +33,5 @@ Database for Capstone Project
 * 사진 디렉토리를 로그 속성으로 추가   
    
 ## Business Model Suggestion
- 1. 사진을 서버에 영구저장->과금 필요   
- 2. 채팅방 생성 개수 제한->제한을 풀려면 돈 내!   
+ 1. 사진을 서버에 영구저장 &rarr; 과금 필요   
+ 2. 채팅방 생성 개수 제한 &rarr; 제한을 풀려면 돈 내!   
