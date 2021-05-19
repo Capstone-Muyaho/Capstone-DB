@@ -5,7 +5,7 @@ Database for Capstone Project
 
 ### 1. users(유저 정보)   
  * nickname(PK): 기본키 설정은 고유인덱스를 이용   
-<br> ->중복된 데이터 삽입 시 에러(그전에 삽입된 데이터는 모두 삽입됨)   
+->중복된 데이터 삽입 시 에러(그전에 삽입된 데이터는 모두 삽입됨)   
  * userid   
  * kakaoemail   
  * token   
