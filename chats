@@ -8,7 +8,7 @@ db.chats.insertOne({
     "sent" : new Date
 })
 
-//room을 기본키로 설정
+//room을 PK로 설정
 db.chats.createIndex({"room" : 1}, {"unique" : true})
 
 //sent속성에 TTL인덱스를 설정하여 60초 뒤에 해당 도큐먼트가 삭제
