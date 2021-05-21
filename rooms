@@ -1,0 +1,8 @@
+//rooms 생성
+db.rooms.insertOne({
+    "owner" : "",
+    "roomnick" : ""
+})
+
+//owner를 PK로 설정
+db.rooms.createIndex({"owner" : 1}, {"unique" : true})
